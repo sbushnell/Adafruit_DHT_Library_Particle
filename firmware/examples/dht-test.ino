@@ -3,7 +3,7 @@
 // Example testing sketch for various DHT humidity/temperature sensors
 // Written by ladyada, public domain
 
-#define DHTPIN 2     // what pin we're connected to
+#define DHTPIN D2    // what pin we're connected to
 
 // Uncomment whatever type you're using!
 //#define DHTTYPE DHT11		// DHT 11 
