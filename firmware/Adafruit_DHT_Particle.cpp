@@ -5,7 +5,7 @@
  * modified for Spark Core by RussGrue
  * */
 
-#include "Adafruit_DHT.h"
+#include "Adafruit_DHT_Particle.h"
 
 DHT::DHT(uint8_t pin, uint8_t type, uint8_t count) {
 	_pin = pin;
