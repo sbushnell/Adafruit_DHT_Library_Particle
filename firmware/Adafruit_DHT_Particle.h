@@ -17,6 +17,7 @@
 #define DHT11 11
 #define DHT22 22
 #define DHT21 21
+#define DHT33 33
 #define AM2301 21
 
 class DHT {
