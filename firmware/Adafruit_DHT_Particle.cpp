@@ -31,6 +31,7 @@ float DHT::readTemperature() {
 				return f;
 			case DHT22:
 			case DHT21:
+			case DHT33:
 				f = data[2] & 0x7F;
 				f *= 256;
 				f += data[3];
